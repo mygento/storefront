@@ -24,8 +24,8 @@
     "reset-css": "^5.0.1"
   },
   "devDependencies": {
-    "@mygento/eslint-config": "^0.0.5",
-    "@mygento/stylelint-config": "^0.0.2",
+    "@mygento/eslint-config": "^0.0.0",
+    "@mygento/stylelint-config": "^0.0.0",
     "@babel/core": "^7.18.9",
     "@next/bundle-analyzer": "^12.2.3",
     "@storybook/addon-actions": "^6.4.9",
