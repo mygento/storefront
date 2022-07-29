@@ -1,8 +1,8 @@
-import Button from "./Button";
+import Button from './Button';
 
 const Settings = {
   component: Button,
-  title: "Button",
+  title: 'Button',
 };
 
 export default Settings;
