@@ -1,6 +1,6 @@
 /** @type {import('stylelint').Config} */
 const config = {
-  extends: ['./scss', './css-modules'],
+  extends: ['./css-modules', './scss'],
   rules: {
     // camelCase
     'scss/at-mixin-pattern': '^[a-z][a-zA-Z0-9]+$',
