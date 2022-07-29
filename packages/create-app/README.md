@@ -1,7 +1,6 @@
-# Установка набора инструментов для разработки
+# Setup dev tools on top of create-next-app
 
-Eslint, stylelint, tsconfig, prettier, storybook, jest, husky, bundle-analyzer
+Eslint, stylelint, tsconfig, prettier, storybook, jest, husky, bundle-analyzer.
 
 WIP
-Пока рекомендуем использовать npx create-next-app --example https://github.com/mygento/storefront/tree/main/apps/examples/default-starter
-После этого, для работы husky нужно выполнить `yarn prepare`, `chmod ug+x .husky/*` и `chmod ug+x .git/hooks/*`.
+For now, use npx create-next-app --example https://github.com/mygento/storefront/tree/main/apps/examples/default-starter.

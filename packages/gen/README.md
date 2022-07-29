@@ -1,7 +1,7 @@
-# Генерация кода (бойлерплейта)
+# Generate code (boilerplate)
 
-Конфиг eslint включает папку templates, но скрипт lint ее игнорирует. В шаблонах могут быть невалидные места (они заполняются после генерации кода) - pre-push должен их пропускать.
+Eslint config includes `templates` folder but `lint` script ignores it, as templates may have invalid code meant to be corrected after generation - Husky's `pre-push` needs to allow those.
 
-## Компонент
+## Component
 
-`npx @mygento/gen -c` генерирует реакт-компонент по шаблону, в соответствии с выбранными опциями через диалог в консоли.
+`npx @mygento/gen -c` generates a React component from a template according to the selected options.

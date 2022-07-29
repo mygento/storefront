@@ -1,3 +1,3 @@
-# Конфиг Stylelint
+# Stylelint Config
 
-Правила разделены на `base` (включает `eslint-config-standard`), `typescript`, `react`, `next` и `graphql`. По умолчанию экспортируется конфиг, включающий в себя все эти наборы правил.
+Rules are divided into `base` (extends `eslint-config-standard`), `typescript`, `react`, `next` and `graphql`. The latter variant is the default.

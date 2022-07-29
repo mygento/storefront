@@ -1,1 +1,1 @@
-# Общие eslintrc, stylelintrc и tsconfig; скрипты генерации кода; примеры и документация.
+# Shared eslintrc, stylelintrc and tsconfig; codegen; examples & docs.
