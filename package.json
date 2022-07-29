@@ -1,0 +1,31 @@
+{
+  "name": "storefront",
+  "version": "0.0.0",
+  "private": true,
+  "workspaces": [
+    "apps/docs",
+    "apps/examples/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --parallel",
+    "lint": "turbo run lint",
+    "lint:fix": "turbo run lint:fix",
+    "format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
+    "prepare": "husky install",
+    "typecheck": "turbo run typecheck",
+    "test": "turbo run test"
+  },
+  "devDependencies": {
+    "@mygento/eslint-config": "*",
+    "husky": "^8.0.1",
+    "prettier": "latest",
+    "turbo": "latest"
+  },
+  "engines": {
+    "npm": ">=7.0.0",
+    "node": ">=14.0.0"
+  },
+  "packageManager": "yarn@1.22.15"
+}
