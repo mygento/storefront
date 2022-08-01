@@ -11,10 +11,10 @@ const Home = () => {
           <Heart />
         </div>
         <div className={css.heart}>
-          <Heart fill="white" />
+          <Heart className={css.pretty} />
         </div>
         <div className={css.heart}>
-          <Heart className={css.pretty} />
+          <Heart fill="white" />
         </div>
       </div>
     </div>
