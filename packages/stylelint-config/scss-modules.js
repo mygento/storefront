@@ -5,8 +5,12 @@ const config = {
     // camelCase
     'scss/at-mixin-pattern': '^[a-z][a-zA-Z0-9]+$',
     'scss/dollar-variable-pattern': '^[a-z][a-zA-Z0-9]+$',
-    // repeat what's already in ./scss
-    'at-rule-no-unknown': null,
+    'no-invalid-position-at-import-rule': [
+      true,
+      {
+        ignoreAtRules: ['use'],
+      },
+    ],
   },
 };
 

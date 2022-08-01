@@ -1,6 +1,6 @@
 /** @type {import('stylelint').Config} */
 const config = {
-  extends: ['stylelint-config-standard-scss', './base'],
+  extends: ['./base', 'stylelint-config-standard-scss'],
   plugins: ['stylelint-scss'],
   rules: {
     'at-rule-no-unknown': null,
