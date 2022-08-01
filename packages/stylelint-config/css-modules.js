@@ -1,6 +1,6 @@
 /** @type {import('stylelint').Config} */
 const config = {
-  extends: ['stylelint-config-css-modules', './base'],
+  extends: ['./base', 'stylelint-config-css-modules'],
   rules: {
     /* 
       camelCase class selectors for convenience in js files;
