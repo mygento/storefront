@@ -11,7 +11,21 @@
   font-size: 26px;
 }
 
+.hearts {
+  display: flex;
+  gap: 12px;
+}
+
 .heart {
   height: 35px;
   width: 40px;
+}
+
+.pretty {
+  cursor: pointer;
+  fill: white;
+
+  &:hover {
+    fill: pink;
+  }
 }
