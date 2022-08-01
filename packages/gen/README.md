@@ -5,3 +5,4 @@ Eslint config includes `templates` folder but `lint` script ignores it, as templ
 ## Component
 
 `npx @mygento/gen -c` generates a React component from a template according to the selected options.
+![alt text](gen-c.gif)
