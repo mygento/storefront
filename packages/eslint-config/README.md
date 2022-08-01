@@ -1,3 +1,3 @@
 # Eslint Config
 
-Rules are divided into `base`, `css-modules`, `scss` and `scss-modules` (`css-modules` + `scss`). The latter variant is the default.
+Rules are divided into `base` (extends `eslint-config-standard`), `typescript`, `react`, `next` and `graphql`. The latter variant is the default.
