@@ -5,7 +5,7 @@ import { spawn } from 'child_process';
   const child = spawn('npx', [
     'create-next-app',
     '--example',
-    'https://github.com/akhdefault/kit/tree/main/apps/examples/default-starter',
+    'https://github.com/mygento/storefront/tree/main/apps/examples/default-starter',
   ]);
 
   child.stdout.pipe(process.stdout);
