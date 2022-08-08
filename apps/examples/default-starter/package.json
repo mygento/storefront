@@ -17,6 +17,7 @@
     "test": "jest"
   },
   "dependencies": {
+    "classnames": "^2.3.1",
     "graphql": "^16.5.0",
     "next": "12.2.3",
     "react": "^17.0.2",
@@ -24,9 +25,9 @@
     "reset-css": "^5.0.1"
   },
   "devDependencies": {
+    "@babel/core": "^7.18.9",
     "@mygento/eslint-config": "^0.0.0",
     "@mygento/stylelint-config": "^0.0.0",
-    "@babel/core": "^7.18.9",
     "@next/bundle-analyzer": "^12.2.3",
     "@storybook/addon-actions": "^6.4.9",
     "@storybook/addon-essentials": "^6.4.9",

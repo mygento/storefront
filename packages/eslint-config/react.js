@@ -15,6 +15,10 @@ const config = {
         ],
       },
     ],
+    'react/jsx-curly-brace-presence': [
+      'error',
+      { props: 'never', children: 'never', propElementValues: 'never' },
+    ],
   },
   parserOptions: {
     jsx: true,
