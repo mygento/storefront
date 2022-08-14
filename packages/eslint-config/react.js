@@ -19,6 +19,7 @@ const config = {
       'error',
       { props: 'never', children: 'never', propElementValues: 'never' },
     ],
+    'react/jsx-no-useless-fragment': 'error',
   },
   parserOptions: {
     jsx: true,
