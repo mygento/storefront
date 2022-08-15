@@ -23,7 +23,7 @@
     "yup": "^0.32.11"
   },
   "devDependencies": {
-    "@mygento/eslint-config": "^0.0.1",
+    "@mygento/eslint-config": "^0.0.2",
     "@mygento/stylelint-config": "^0.0.1",
     "@next/bundle-analyzer": "^12.2.3",
     "@svgr/webpack": "^6.3.1",
