@@ -26,7 +26,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.18.9",
-    "@mygento/eslint-config": "^0.0.1",
+    "@mygento/eslint-config": "^0.0.2",
     "@mygento/stylelint-config": "^0.0.1",
     "@next/bundle-analyzer": "^12.2.3",
     "@storybook/addon-actions": "^6.4.9",

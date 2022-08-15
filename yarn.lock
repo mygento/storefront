@@ -1796,35 +1796,6 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@mygento/eslint-config@^0.0.1":
-  version "0.0.0"
-  dependencies:
-    "@graphql-eslint/eslint-plugin" "^3.10.6"
-    "@typescript-eslint/eslint-plugin" "^5.30.7"
-    "@typescript-eslint/parser" "^5.30.7"
-    eslint "^8.20.0"
-    eslint-config-next "^12.2.3"
-    eslint-config-prettier "^8.3.0"
-    eslint-config-react-app "^7.0.1"
-    eslint-config-standard "^17.0.0"
-    eslint-plugin-css-modules "^2.11.0"
-    eslint-plugin-import "^2.26.0"
-    eslint-plugin-n "^15.2.4"
-    eslint-plugin-promise "^6.0.0"
-    typescript "^4.7.4"
-
-"@mygento/stylelint-config@^0.0.0":
-  version "0.0.0"
-  resolved "https://registry.npmjs.org/@mygento/stylelint-config/-/stylelint-config-0.0.0.tgz#e18b716d52517e224d41bf8f5d08aa3f9a3ce99a"
-  integrity sha512-kSisc53MnTgagcc9SXNB4qWs72P3daQaX2A8yPGyujcNx0kZB4MeTzQzd42K1ICvLVVkMBgh+c62h3su1ORSTw==
-  dependencies:
-    stylelint "^14.9.1"
-    stylelint-config-css-modules "^4.1.0"
-    stylelint-config-prettier "^9.0.3"
-    stylelint-config-standard-scss "^3.0.0"
-    stylelint-order "^5.0.0"
-    stylelint-scss "^4.2.0"
-
 "@n1ru4l/graphql-live-query@^0.9.0":
   version "0.9.0"
   resolved "https://registry.npmjs.org/@n1ru4l/graphql-live-query/-/graphql-live-query-0.9.0.tgz#defaebdd31f625bee49e6745934f36312532b2bc"
@@ -2003,7 +1974,7 @@
   resolved "https://registry.npmjs.org/@polka/url/-/url-1.0.0-next.21.tgz#5de5a2385a35309427f6011992b544514d559aa1"
   integrity sha512-a5Sab1C4/icpTZVzZc5Ghpz88yQtGOyNqYXcZgOssB2uuAr+wF/MvN6bgtW32q7HHrvBki+BsZ0OuNv6EV3K9g==
 
-"@rushstack/eslint-patch@^1.1.0", "@rushstack/eslint-patch@^1.1.3":
+"@rushstack/eslint-patch@^1.1.0", "@rushstack/eslint-patch@^1.1.3", "@rushstack/eslint-patch@^1.1.4":
   version "1.1.4"
   resolved "https://registry.npmjs.org/@rushstack/eslint-patch/-/eslint-patch-1.1.4.tgz#0c8b74c50f29ee44f423f7416829c0bf8bb5eb27"
   integrity sha512-LwzQKA4vzIct1zNZzBmRKI9QuNpLgTQMEjsQLf3BXuGYb3QPTP4Yjf6mkdX+X1mYttZ808QpOwAzZjv28kq7DA==
