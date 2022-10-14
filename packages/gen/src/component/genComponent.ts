@@ -3,7 +3,7 @@ import cpy from 'cpy';
 import path from 'path';
 import chalk from 'chalk';
 import fs from 'fs/promises';
-import toTitleCase from '../utils/toTitleCase';
+import toPascalCase from '../utils/toPascalCase';
 
 const questions: PromptObject[] = [
   {
@@ -59,7 +59,7 @@ export default async function genComponent() {
 }
 
 async function createComponent(options: Answers<string>) {
-  const name = toTitleCase(options.name);
+  const name = toPascalCase(options.name);
   const componentTemplatePath = path.join(
     __dirname,
     '/templates/Component.tsx'
