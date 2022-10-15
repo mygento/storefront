@@ -12,7 +12,7 @@
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "lint:fix": "turbo run lint:fix",
-    "format": "prettier --write \"**/*.{js,ts,tsx,md}\"",
+    "format": "prettier --write \"**/*.{js,ts,tsx,md,scss}\"",
     "prepare": "husky install",
     "typecheck": "turbo run typecheck",
     "test": "turbo run test"
