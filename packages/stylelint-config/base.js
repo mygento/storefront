@@ -15,6 +15,7 @@ const config = {
     ],
     // works with a systemic design - disable if impractical in a specific project
     'color-named': 'always-where-possible',
+    'declaration-block-no-redundant-longhand-properties': null,
     'prettier/prettier': true,
   },
 };
