@@ -1,6 +1,6 @@
 {
   "name": "@mygento/eslint-config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "exports": {
     ".": "./index.js",
     "./base": "./base.js",
@@ -8,6 +8,7 @@
     "./react": "./react.js",
     "./next": "./next.js",
     "./css-modules": "./css-modules.js",
+    "./graphql": "./graphql.js",
     "./full": "./full.js"
   },
   "license": "MIT",
