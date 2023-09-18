@@ -1796,6 +1796,39 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
+"@mygento/eslint-config@latest":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@mygento/eslint-config/-/eslint-config-0.0.4.tgz#88fd86498100f22b04bd9c77682899e93d31fe34"
+  integrity sha512-Pkzp4+5pc7l7eFh3DDSB56ng9Uy3zb3D4S9g6AFqXwugAG9iA3c2ao/OXGtm4sltloSuyO+xtAFCZbB3muB4aw==
+  dependencies:
+    "@graphql-eslint/eslint-plugin" "^3.10.6"
+    "@rushstack/eslint-patch" "^1.1.4"
+    "@typescript-eslint/eslint-plugin" "^5.30.7"
+    "@typescript-eslint/parser" "^5.30.7"
+    eslint "^8.20.0"
+    eslint-config-next "^12.2.3"
+    eslint-config-prettier "^8.3.0"
+    eslint-config-react-app "^7.0.1"
+    eslint-config-standard "^17.0.0"
+    eslint-plugin-css-modules "^2.11.0"
+    eslint-plugin-import "^2.26.0"
+    eslint-plugin-n "^15.2.4"
+    eslint-plugin-promise "^6.0.0"
+    typescript "^4.7.4"
+
+"@mygento/stylelint-config@latest":
+  version "0.0.2"
+  resolved "https://registry.yarnpkg.com/@mygento/stylelint-config/-/stylelint-config-0.0.2.tgz#50f761c55a244eac9cbe4b64cde780045f7fa7a5"
+  integrity sha512-43B6xKb8FAIRt+ZnMAeLENEAa/JDrsnzDjX60mJx5o2lDahRWBbDEEHoj0TDO9EfuLUc54O6GGobW0JlsW5hJQ==
+  dependencies:
+    stylelint "^14.9.1"
+    stylelint-config-css-modules "^4.1.0"
+    stylelint-config-prettier "^9.0.3"
+    stylelint-config-standard-scss "^3.0.0"
+    stylelint-order "^5.0.0"
+    stylelint-prettier "^2.0.0"
+    stylelint-scss "^4.2.0"
+
 "@n1ru4l/graphql-live-query@^0.9.0":
   version "0.9.0"
   resolved "https://registry.npmjs.org/@n1ru4l/graphql-live-query/-/graphql-live-query-0.9.0.tgz#defaebdd31f625bee49e6745934f36312532b2bc"
@@ -10034,9 +10067,9 @@ nested-error-stacks@^2.0.0, nested-error-stacks@^2.1.0:
   resolved "https://registry.npmjs.org/nested-error-stacks/-/nested-error-stacks-2.1.1.tgz#26c8a3cee6cc05fbcf1e333cd2fc3e003326c0b5"
   integrity sha512-9iN1ka/9zmX1ZvLV9ewJYEk9h7RyRRtqdK0woXcqohu8EWIerfPUjYJPg0ULy0UqP7cslmdGc8xKDJcojlKiaw==
 
-next-plugin-graphql@^0.0.2:
+next-plugin-graphql@^0.0.4:
   version "0.0.2"
-  resolved "https://registry.npmjs.org/next-plugin-graphql/-/next-plugin-graphql-0.0.2.tgz#31625abe1cef282194063533522026010a9d6255"
+  resolved "https://registry.yarnpkg.com/next-plugin-graphql/-/next-plugin-graphql-0.0.2.tgz#31625abe1cef282194063533522026010a9d6255"
   integrity sha512-PgRqONNSF+lTyrtraNC7wJWNYq1U4v4jgIHmvTXYvdtYEz7oeuNNqk3N8mlunV2WzntpSFSe0BCdinRN25tkmQ==
   dependencies:
     graphql-tag "^2.10.0"
