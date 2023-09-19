@@ -62,11 +62,11 @@ async function createComponent(options: Answers<string>) {
   const name = toPascalCase(options.name);
   const componentTemplatePath = path.join(
     __dirname,
-    '/templates/Component.tsx'
+    '/templates/Component.tsx',
   );
   const cssModuleTemplatePath = path.join(
     __dirname,
-    '/templates/Component.module.scss'
+    '/templates/Component.module.scss',
   );
   const destination = options.standalone
     ? path.join(process.cwd(), name)
@@ -82,7 +82,7 @@ async function createComponent(options: Answers<string>) {
   if (options.standalone) {
     await fs.writeFile(
       `${destination}/index.ts`,
-      `export { default } from './${name}'`
+      `export { default } from './${name}'`,
     );
   }
 
@@ -90,13 +90,13 @@ async function createComponent(options: Answers<string>) {
   const fileContent = (await fs.readFile(generatedComponentPath)).toString();
   await fs.writeFile(
     generatedComponentPath,
-    fileContent.replace(/Component/g, name)
+    fileContent.replace(/Component/g, name),
   );
 
   if (options.withStorybook) {
     const storyTemplatePath = path.join(
       __dirname,
-      '/templates/Component.stories.tsx'
+      '/templates/Component.stories.tsx',
     );
     await cpy(storyTemplatePath, destination, {
       rename: basename => basename.replace('Component', name),
@@ -106,11 +106,11 @@ async function createComponent(options: Answers<string>) {
     const storyFileContent = (await fs.readFile(generatedStoryPath)).toString();
     await fs.writeFile(
       generatedStoryPath,
-      storyFileContent.replace(/Component/g, name)
+      storyFileContent.replace(/Component/g, name),
     );
   }
 
   console.log(
-    chalk.green(`Generated a component at ${generatedComponentPath}`)
+    chalk.green(`Generated a component at ${generatedComponentPath}`),
   );
 }
