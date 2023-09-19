@@ -20,7 +20,7 @@
   },
   "devDependencies": {
     "@mygento/eslint-config": "*",
-    "prettier": "^2.7.1",
+    "prettier": "^3.0.3",
     "tsup": "^6.1.3"
   },
   "engines": {
